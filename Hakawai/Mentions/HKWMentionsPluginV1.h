@@ -7,6 +7,7 @@
 //
 
 #import "HKWMentionsPlugin.h"
+#import "_HKWMentionsStartDetectionStateMachine.h"
 
 // Don't confuse this with the public 'HKWMentionsPluginState', which exposes fewer implementation details.
 typedef NS_ENUM(NSInteger, HKWMentionsState) {
