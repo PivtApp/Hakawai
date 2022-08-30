@@ -64,7 +64,6 @@
  */
 @property (nonatomic) BOOL nextInsertionShouldBeIgnored;
 
-@property (nonatomic, strong) HKWMentionsStartDetectionStateMachine *startDetectionStateMachine;
 @property (nonatomic, strong) HKWMentionsCreationStateMachine *creationStateMachine;
 
 /*!
