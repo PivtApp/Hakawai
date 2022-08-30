@@ -34,6 +34,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface HKWMentionsPluginV1 : NSObject <HKWMentionsPlugin>
 
+@property (nonatomic, strong) HKWMentionsStartDetectionStateMachine *startDetectionStateMachine;
+
 /*!
  Instantiate a mentions plug-in with the specified chooser mode, no control characters, and a default search length of
  3 characters.
